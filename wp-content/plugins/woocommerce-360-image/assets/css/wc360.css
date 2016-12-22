@@ -1,0 +1,12 @@
+.wc360 .fullscreen-button {
+  background: url('../../lib/threesixty/images/fs.png') no-repeat;
+}
+
+#container.wc360-container {
+  display: inline-block;
+  float: left;
+}
+
+#container.wc360-container.shortcode img {
+	box-shadow: none;
+}

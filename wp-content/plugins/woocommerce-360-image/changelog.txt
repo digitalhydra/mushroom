@@ -1,0 +1,7 @@
+*** WooCommerce 360 Image Changelog ***
+
+2014.12.17 - version 1.0.1
+ * Fix fatal error on 404s for some people
+
+2014.09.23 - version 1.0.0
+ * First Release.

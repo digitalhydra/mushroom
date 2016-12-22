@@ -1,0 +1,934 @@
+# Copyright (C) 2015 WooThemes
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Conditional Shipping and Payments 1.1.11\n"
+"Report-Msgid-Bugs-To: https://support.woothemes.com/hc/en-us\n"
+"POT-Creation-Date: 2015-12-15 11:42:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 0.5.1\n"
+
+#: includes/abstracts/class-wccsp-abstract-restriction.php:162
+#: includes/admin/class-wccsp-admin.php:203
+msgid "Close all"
+msgstr ""
+
+#: includes/abstracts/class-wccsp-abstract-restriction.php:163
+#: includes/admin/class-wccsp-admin.php:204
+msgid "Expand all"
+msgstr ""
+
+#: includes/abstracts/class-wccsp-abstract-restriction.php:177
+#: includes/admin/class-wccsp-admin.php:201
+msgid "Add Restriction"
+msgstr ""
+
+#: includes/abstracts/class-wccsp-abstract-restriction.php:207
+#: includes/abstracts/class-wccsp-abstract-restriction.php:253
+msgid "Remove"
+msgstr ""
+
+#: includes/abstracts/class-wccsp-abstract-restriction.php:208
+#: includes/abstracts/class-wccsp-abstract-restriction.php:254
+msgid "Click to toggle"
+msgstr ""
+
+#: includes/abstracts/class-wccsp-abstract-restriction.php:209
+msgid "#%1$s - %2$s: <span class=\"restriction_title_inner\">%3$s</span>"
+msgstr ""
+
+#: includes/abstracts/class-wccsp-abstract-restriction.php:255
+msgid "#%1$s: <span class=\"restriction_title_inner\">%2$s</span>"
+msgstr ""
+
+#: includes/abstracts/class-wccsp-abstract-restriction.php:487
+#. translators: Used to stitch together a resolution meesage based on a
+#. restriction's active conditions
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/abstracts/class-wccsp-abstract-restriction.php:491
+#. translators: Used to stitch together a resolution meesage based on a
+#. restriction's active conditions - last condition
+msgid "%1$s, or %2$s"
+msgstr ""
+
+#: includes/admin/class-wccsp-admin.php:77
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/admin/class-wccsp-admin.php:171
+#: includes/admin/settings/class-wccsp-settings-restrictions.php:27
+#: includes/admin/settings/class-wccsp-settings-restrictions.php:46
+#: includes/admin/settings/class-wccsp-settings-restrictions.php:66
+msgid "Restrictions"
+msgstr ""
+
+#: includes/admin/class-wccsp-admin.php:193
+msgid "Restriction type&hellip;"
+msgstr ""
+
+#: includes/admin/class-wccsp-admin.php:333
+msgid ""
+"This restriction is already defined and cannot be added again. Only "
+"restrictions that support multiple rule definitions can be added more than "
+"once."
+msgstr ""
+
+#: includes/admin/settings/class-wccsp-settings-restrictions.php:68
+msgid ""
+"Use Restrictions to conditionally disable Payment Gateways, Shipping "
+"Methods and Shipping Countries or States."
+msgstr ""
+
+#: includes/admin/settings/class-wccsp-settings-restrictions.php:79
+msgid "Debug Options"
+msgstr ""
+
+#: includes/admin/settings/class-wccsp-settings-restrictions.php:81
+msgid ""
+"Use the following options to temporarily disable all defined Restrictions, "
+"for example if you need to troubleshoot your payment and shipping settings."
+msgstr ""
+
+#: includes/admin/settings/class-wccsp-settings-restrictions.php:86
+msgid "Disable Global Restrictions"
+msgstr ""
+
+#: includes/admin/settings/class-wccsp-settings-restrictions.php:87
+msgid "Disable all global restrictions"
+msgstr ""
+
+#: includes/admin/settings/class-wccsp-settings-restrictions.php:92
+msgid "Disable all restrictions created in the tab sections above."
+msgstr ""
+
+#: includes/admin/settings/class-wccsp-settings-restrictions.php:96
+msgid "Disable Product Restrictions"
+msgstr ""
+
+#: includes/admin/settings/class-wccsp-settings-restrictions.php:97
+msgid "Disable all restrictions defined at product level"
+msgstr ""
+
+#: includes/admin/settings/class-wccsp-settings-restrictions.php:102
+msgid ""
+"Disable all restrictions created from the <strong>Product Data > "
+"Restrictions</strong> tab in product pages. Product level restrictions are "
+"associated with specific products."
+msgstr ""
+
+#: includes/admin/settings/class-wccsp-settings-restrictions.php:169
+msgid "Restrictions Overview"
+msgstr ""
+
+#: includes/admin/settings/class-wccsp-settings-restrictions.php:174
+msgid "Restriction Type"
+msgstr ""
+
+#: includes/admin/settings/class-wccsp-settings-restrictions.php:175
+msgid "Active Rules"
+msgstr ""
+
+#: includes/admin/settings/class-wccsp-settings-restrictions.php:176
+msgid "Summary"
+msgstr ""
+
+#: includes/class-wccsp-conditions.php:137
+msgid "Conditions"
+msgstr ""
+
+#: includes/class-wccsp-conditions.php:137
+msgid ""
+"All <strong>defined</strong> conditions must apply "
+"<strong>simultaneously</strong> for the restriction to come into effect. "
+"Add multiple restriction instances to create complex rules."
+msgstr ""
+
+#: includes/class-wccsp-conditions.php:175
+msgid "Add Condition"
+msgstr ""
+
+#: includes/class-wccsp-conditions.php:176
+msgid "Remove Selected"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-billing-country.php:20
+msgid "Billing Country"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-billing-country.php:42
+#: includes/conditions/class-wccsp-condition-billing-country.php:44
+msgid "select a different billing country"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-billing-country.php:123
+#: includes/conditions/class-wccsp-condition-customer-role.php:163
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:173
+#: includes/conditions/class-wccsp-condition-shipping-method.php:174
+msgid "is"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-billing-country.php:124
+#: includes/conditions/class-wccsp-condition-customer-role.php:164
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:174
+msgid "is not"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-billing-country.php:128
+msgid "Select billing countries&hellip;"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-billing-country.php:136
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:186
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:230
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:116
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:158
+msgid "Select all"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-billing-country.php:137
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:187
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:231
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:117
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:159
+msgid "Select none"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-category.php:20
+#: includes/conditions/class-wccsp-condition-package-category.php:20
+msgid "Category"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-category.php:78
+#: includes/conditions/class-wccsp-condition-package-category.php:78
+msgid "remove all products in the &quot;%s&quot; category from your cart"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-category.php:87
+#: includes/conditions/class-wccsp-condition-cart-shipping-class.php:71
+#: includes/conditions/class-wccsp-condition-package-category.php:87
+#: includes/conditions/class-wccsp-condition-package-shipping-class.php:71
+#. translators: Used to stitch together product category names
+#. translators: Used to stitch together product names
+#. translators: Used to stitch together product category names
+#. translators: Used to stitch together product names
+msgid "%1$s, &quot;%2$s&quot;"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-category.php:91
+#: includes/conditions/class-wccsp-condition-cart-shipping-class.php:75
+#: includes/conditions/class-wccsp-condition-package-category.php:91
+#: includes/conditions/class-wccsp-condition-package-shipping-class.php:75
+#. translators: Used to stitch together product category names - last name
+#. translators: Used to stitch together product names - last name
+#. translators: Used to stitch together product category names - last name
+#. translators: Used to stitch together product names - last name
+msgid "%1$s, and &quot;%2$s&quot;"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-category.php:93
+#: includes/conditions/class-wccsp-condition-package-category.php:93
+msgid "remove all products in the %s categories from your cart"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-category.php:97
+#: includes/conditions/class-wccsp-condition-cart-shipping-class.php:81
+#: includes/conditions/class-wccsp-condition-package-category.php:97
+#: includes/conditions/class-wccsp-condition-package-shipping-class.php:81
+msgid "purchase a qualifying product"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-category.php:231
+#: includes/conditions/class-wccsp-condition-cart-shipping-class.php:224
+msgid "in cart"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-category.php:232
+#: includes/conditions/class-wccsp-condition-cart-shipping-class.php:225
+msgid "not in cart"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-category.php:236
+#: includes/conditions/class-wccsp-condition-package-category.php:205
+msgid "Select categories&hellip;"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-item-quantity.php:20
+msgid "Quantity"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-item-quantity.php:47
+msgid "decrease the quantity of &quot;%1$s&quot; to a value lower than %2$s"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-item-quantity.php:51
+msgid "increase the quantity of &quot;%1$s&quot; to at least %2$s"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-item-quantity.php:151
+#: includes/conditions/class-wccsp-condition-cart-total.php:129
+#: includes/conditions/class-wccsp-condition-order-total.php:149
+#: includes/conditions/class-wccsp-condition-package-weight.php:168
+msgid "<"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-item-quantity.php:152
+#: includes/conditions/class-wccsp-condition-cart-total.php:130
+#: includes/conditions/class-wccsp-condition-order-total.php:150
+#: includes/conditions/class-wccsp-condition-package-weight.php:169
+msgid ">="
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-shipping-class.php:20
+#: includes/conditions/class-wccsp-condition-package-shipping-class.php:20
+msgid "Shipping Class"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-shipping-class.php:62
+#: includes/conditions/class-wccsp-condition-package-shipping-class.php:62
+msgid "remove &quot;%s&quot; from your cart"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-shipping-class.php:77
+#: includes/conditions/class-wccsp-condition-package-shipping-class.php:77
+msgid "remove %s from your cart"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-shipping-class.php:229
+#: includes/conditions/class-wccsp-condition-package-shipping-class.php:197
+msgid "Select shipping classes&hellip;"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-total.php:20
+msgid "Cart Total"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-total.php:42
+msgid "decrease your cart total below %s"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-cart-total.php:46
+msgid "increase your cart total above %s"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-customer-role.php:20
+msgid "Customer Role"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-customer-role.php:61
+#: includes/conditions/class-wccsp-condition-customer-role.php:63
+msgid "check out using an account with elevated permissions"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-customer-role.php:156
+msgid "Guest"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-customer-role.php:168
+msgid "Select roles&hellip;"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-customer.php:20
+msgid "Customer"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-customer.php:65
+#: includes/conditions/class-wccsp-condition-customer.php:67
+msgid "use an authorized account"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-customer.php:184
+msgid "e-mail is"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-customer.php:185
+msgid "e-mail is not"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-customer.php:189
+msgid "List of e-mails separated by comma."
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-order-total.php:20
+msgid "Order Total"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-order-total.php:42
+msgid "decrease your order total below %s"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-order-total.php:46
+msgid "increase your order total above %s"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-package-category.php:200
+#: includes/conditions/class-wccsp-condition-package-shipping-class.php:192
+msgid "in package"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-package-category.php:201
+#: includes/conditions/class-wccsp-condition-package-shipping-class.php:193
+msgid "not in package"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-package-weight.php:20
+msgid "Package Weight"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-package-weight.php:62
+msgid "decrease the package weight below %1$s%2$s"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-package-weight.php:66
+msgid "increase the package weight above %1$s%2$s"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:20
+msgid "Shipping Country"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:45
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:49
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:55
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:59
+msgid "select a different shipping %s"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:45
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:55
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:412
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:481
+msgid "Country"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:48
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:58
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:418
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:487
+msgid "State / County"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:178
+msgid "Select shipping countries&hellip;"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:196
+msgid "all States"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:197
+msgid "specific States"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:203
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:131
+msgid "Select States / Regions&hellip;"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-shipping-country-state.php:236
+msgid ""
+"To select specific States/Regions, first add some countries with "
+"States/Regions and then save your changes."
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-shipping-method.php:20
+msgid "Shipping Method"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-shipping-method.php:67
+msgid "select a different shipping method"
+msgstr ""
+
+#: includes/conditions/class-wccsp-condition-shipping-method.php:178
+msgid "Select shipping methods&hellip;"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:21
+msgid "Payment Gateways"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:22
+msgid ""
+"Restrict the available payment gateways based on product-related "
+"constraints."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:28
+msgid "Payment Gateway Restrictions"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:67
+msgid ""
+"Restrict the payment gateways available during checkout when the defined "
+"conditions apply. Complex rules can be created by adding multiple "
+"restriction instances. Each instance will be evaluated independently."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:103
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:102
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:292
+msgid "Short Description"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:105
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:104
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:294
+msgid "Optional short description for this rule&hellip;"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:108
+msgid "Exclude Gateways"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:109
+msgid "Select Payment Gateways&hellip;"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:119
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:308
+msgid "Show Excluded"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:122
+msgid ""
+"By default, excluded payment gateways are removed from the list of gateways "
+"available during checkout. Select this option if you prefer to show "
+"excluded gateways in the checkout options and trigger a restriction notice "
+"when customers attempt to complete an order using an excluded gateway."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:179
+msgid ""
+"Restrict the payment gateways available during checkout when an order "
+"contains this product."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:226
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:245
+msgid ""
+"Restriction #%s was not saved. Before saving a &quot;Payment Gateways&quot; "
+"restriction, remember to add at least one payment gateway to the exclusions "
+"list."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:483
+msgid ""
+"To purchase &quot;%3$s&quot; via &quot;%1$s&quot;, please %2$s. Otherwise, "
+"select an alternative payment method, or remove &quot;%3$s&quot; from your "
+"cart."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:485
+msgid ""
+"To complete your order, please select an alternative payment method, or "
+"remove &quot;%1$s&quot; from your cart."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:488
+msgid ""
+"Unfortunately, &quot;%1$s&quot; cannot be checked out via &quot;%2$s&quot;. "
+"%3$s"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:529
+msgid ""
+"To complete your order via &quot;%1$s&quot;, please %2$s. Otherwise, select "
+"an alternative payment method."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:531
+msgid "To complete your order, please select an alternative payment method."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-payment-gateways.php:534
+msgid "Unfortunately, your order cannot be checked out via &quot;%1$s&quot;. %2$s"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:21
+msgid "Shipping Countries &amp; States"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:22
+msgid ""
+"Restrict the allowed shipping countries based on product-related "
+"constraints."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:28
+msgid "Shipping Country Restrictions"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:61
+msgid ""
+"Restrict the allowed shipping countries when the defined conditions apply. "
+"Complex rules can be created by adding multiple restriction instances. Each "
+"instance will be evaluated independently."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:107
+msgid "Exclude Countries"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:108
+msgid "Select Countries&hellip;"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:121
+msgid "Exclude States / Regions"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:124
+msgid "All States / Regions in the selected Countries"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:125
+msgid "Specific States / Regions"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:164
+msgid ""
+"To select specific States / Regions, please add some countries with States "
+"/ Regions to the <strong>Exclude Countries</strong> field and then save "
+"your changes."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:171
+msgid "Custom Checkout Notice"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:175
+msgid ""
+"Defaults to:<br/>&quot;Unfortunately your order cannot be shipped "
+"{to_excluded_destination}. To complete your order, please select an "
+"alternative shipping country / state.&quot;<br/>When conditions are "
+"defined, the default message will be amended with resolution instructions."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:177
+msgid ""
+"Defaults to:<br/>&quot;Unfortunately your order cannot be shipped "
+"{to_excluded_destination}. To complete your order, please select an "
+"alternative shipping country / state, or remove {product} from your "
+"cart.&quot;<br/>When conditions are defined, the default message will be "
+"amended with resolution instructions."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:186
+msgid ""
+"Define a custom checkout error message to show when selecting an excluded "
+"shipping destination. You may include "
+"<code>{to_excluded_destination}</code> and have it substituted by the "
+"selected shipping country / state."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:188
+msgid ""
+"Define a custom checkout error message to show when selecting an excluded "
+"shipping destination. You may include <code>{product}</code> and "
+"<code>{to_excluded_destination}</code> and have them substituted by the "
+"actual product title and country / state."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:250
+msgid "Restrict the allowed shipping countries when an order contains this product."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:250
+msgid ""
+"The restriction does not have any effect on the list of billing/shipping "
+"countries available during checkout. When an excluded country is selected "
+"during checkout, a notice is displayed under the shipping details. Shipping "
+"country restrictions are additionally validated when attempting to complete "
+"an order. "
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:313
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:332
+msgid ""
+"Restriction #%s was not saved. Before saving a &quot;Shipping "
+"Countries&quot; restriction, remember to add at least one shipping country "
+"to the exclusions list."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:411
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:480
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:417
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:486
+msgid "to %s"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:436
+msgid ""
+"To have your order shipped %1$s, please %2$s. Otherwise, select an "
+"alternative shipping %3$s, or remove &quot;%4$s&quot; from your cart."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:438
+msgid ""
+"To complete your order, please select an alternative shipping %1$s, or "
+"remove &quot;%2$s&quot; from your cart."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:441
+msgid "Unfortunately your order cannot be shipped %2$s. %3$s"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:503
+msgid ""
+"To have your order shipped %1$s, please %2$s. Otherwise, select an "
+"alternative shipping %3$s."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:505
+msgid "To complete your order, please select an alternative shipping %1$s."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-countries.php:508
+msgid "Unfortunately your order cannot be shipped %1$s. %2$s"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:21
+msgid "Shipping Methods"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:22
+msgid ""
+"Restrict the available shipping methods based on product-related "
+"constraints."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:28
+msgid "Shipping Method Restrictions"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:76
+msgid "Table Rates"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:77
+msgid "Table Rate Shipping &ndash; All Table Rates"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:81
+msgid "Flat Rate Boxes"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:82
+msgid "Flat Rate Boxes Shipping &ndash; All Box Rates"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:86
+msgid "Flat Rates"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:126
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:176
+msgid "Default Zone"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:133
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:183
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:194
+msgid "%1$s (ID: %2$s)"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:136
+msgid "Flat Rate Boxes Shipping &ndash; %1$s: %2$s"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:186
+msgid "Table Rate Shipping &ndash; %1$s: %2$s, All Rates"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:194
+msgid "Unlabelled Rate (ID: %1$s)"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:196
+msgid "Table Rate Shipping &ndash; %1$s: %2$s, %3$s"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:254
+msgid ""
+"Restrict the shipping methods available during checkout when the defined "
+"conditions apply. Complex rules can be created by adding multiple "
+"restriction instances. Each instance will be evaluated independently."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:297
+msgid "Exclude Shipping Methods"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:298
+msgid "Select Shipping Methods&hellip;"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:311
+msgid ""
+"By default, excluded shipping methods are removed from the list of methods "
+"available during checkout. Select this option if you prefer to show "
+"excluded shipping methods in the checkout options and trigger a restriction "
+"notice when customers attempt to complete an order using an excluded method."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:388
+msgid ""
+"Restrict the available shipping methods when a package contains this "
+"product."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:436
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:455
+msgid ""
+"Restriction #%s was not saved. Before saving a &quot;Shipping Method&quot; "
+"restriction, remember to add at least one shipping method to the exclusions "
+"list."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:667
+msgid ""
+"To have &quot;%1$s&quot; shipped via %2$s, please %3$s. Otherwise, select "
+"an alternative payment method, or remove &quot;%1$s&quot; from your cart."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:669
+msgid ""
+"To complete your order, please select an alternative shipping method, or "
+"remove &quot;%1$s&quot; from your cart."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:672
+msgid ""
+"Unfortunately, &quot;%1$s&quot; is not eligible for shipping via "
+"&quot;%2$s&quot;. %3$s"
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:708
+msgid ""
+"To have your order shipped via %1$s, please %2$s. Otherwise, select an "
+"alternative shipping method."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:710
+msgid "To complete your order, please select an alternative shipping method."
+msgstr ""
+
+#: includes/restrictions/class-wccsp-restrict-shipping-methods.php:713
+msgid "Unfortunately, your order cannot be shipped via %1$s. %2$s"
+msgstr ""
+
+#: woocommerce-conditional-shipping-and-payments.php:152
+#: woocommerce-conditional-shipping-and-payments.php:161
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: woocommerce-conditional-shipping-and-payments.php:281
+msgid ""
+"WooCommerce Checkout Restrictions requires at least WooCommerce %s in order "
+"to function. Please upgrade WooCommerce."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Conditional Shipping and Payments"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"http://www.woothemes.com/products/woocommerce-conditional-shipping-and-"
+"payments"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Use advanced rules to control the payment gateways, shipping methods and "
+"shipping countries/states available during checkout."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WooThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://woothemes.com/"
+msgstr ""
+
+#: includes/admin/class-wccsp-admin.php:114
+#: includes/admin/class-wccsp-admin.php:145
+msgctxt "enhanced select"
+msgid "One result is available, press enter to select it."
+msgstr ""
+
+#: includes/admin/class-wccsp-admin.php:115
+#: includes/admin/class-wccsp-admin.php:146
+msgctxt "enhanced select"
+msgid "%qty% results are available, use up and down arrow keys to navigate."
+msgstr ""
+
+#: includes/admin/class-wccsp-admin.php:116
+#: includes/admin/class-wccsp-admin.php:147
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: includes/admin/class-wccsp-admin.php:117
+#: includes/admin/class-wccsp-admin.php:148
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr ""
+
+#: includes/admin/class-wccsp-admin.php:118
+#: includes/admin/class-wccsp-admin.php:149
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: includes/admin/class-wccsp-admin.php:119
+#: includes/admin/class-wccsp-admin.php:150
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr ""
+
+#: includes/admin/class-wccsp-admin.php:120
+#: includes/admin/class-wccsp-admin.php:151
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr ""
+
+#: includes/admin/class-wccsp-admin.php:121
+#: includes/admin/class-wccsp-admin.php:152
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr ""
+
+#: includes/admin/class-wccsp-admin.php:122
+#: includes/admin/class-wccsp-admin.php:153
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr ""
+
+#: includes/admin/class-wccsp-admin.php:123
+#: includes/admin/class-wccsp-admin.php:154
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr ""
+
+#: includes/admin/class-wccsp-admin.php:124
+#: includes/admin/class-wccsp-admin.php:155
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: includes/admin/class-wccsp-admin.php:125
+#: includes/admin/class-wccsp-admin.php:156
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr ""

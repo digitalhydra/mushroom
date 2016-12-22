@@ -1,0 +1,1080 @@
+# Copyright (C) 2016 Transvelo
+# This file is distributed under the same license as the Electro Extensions package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Electro Extensions 1.1.10\n"
+"Report-Msgid-Bugs-To: http://transvelo.freshdesk.com/\n"
+"POT-Creation-Date: 2016-08-02 14:31:30+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Electro POT <support@transvelo.com>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: electro-extensions.php:167 electro-extensions.php:176
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: modules/js_composer/config/map.php:16
+msgid "Ad Block"
+msgstr ""
+
+#: modules/js_composer/config/map.php:18
+msgid "Add Ad Block to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:19 modules/js_composer/config/map.php:54
+#: modules/js_composer/config/map.php:119
+#: modules/js_composer/config/map.php:149
+#: modules/js_composer/config/map.php:237
+#: modules/js_composer/config/map.php:340
+#: modules/js_composer/config/map.php:507
+#: modules/js_composer/config/map.php:677
+#: modules/js_composer/config/map.php:749
+#: modules/js_composer/config/map.php:812
+#: modules/js_composer/config/map.php:930
+#: modules/js_composer/config/map.php:1048
+#: modules/js_composer/config/map.php:1100
+#: modules/js_composer/config/map.php:1238
+#: modules/js_composer/config/map.php:1296
+msgid "Electro Elements"
+msgstr ""
+
+#: modules/js_composer/config/map.php:24 modules/js_composer/config/map.php:134
+msgid "Image"
+msgstr ""
+
+#: modules/js_composer/config/map.php:29
+msgid "Caption Text"
+msgstr ""
+
+#: modules/js_composer/config/map.php:34
+msgid "Action Text"
+msgstr ""
+
+#: modules/js_composer/config/map.php:39
+msgid "Action Link"
+msgstr ""
+
+#: modules/js_composer/config/map.php:51
+msgid "Feature Block"
+msgstr ""
+
+#: modules/js_composer/config/map.php:53
+msgid "Add Feature Block to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:59
+msgid "Icon 1"
+msgstr ""
+
+#: modules/js_composer/config/map.php:64
+msgid "Text 1"
+msgstr ""
+
+#: modules/js_composer/config/map.php:69
+msgid "Icon 2"
+msgstr ""
+
+#: modules/js_composer/config/map.php:74
+msgid "Text 2"
+msgstr ""
+
+#: modules/js_composer/config/map.php:79
+msgid "Icon 3"
+msgstr ""
+
+#: modules/js_composer/config/map.php:84
+msgid "Text 3"
+msgstr ""
+
+#: modules/js_composer/config/map.php:89
+msgid "Icon 4"
+msgstr ""
+
+#: modules/js_composer/config/map.php:94
+msgid "Text 4"
+msgstr ""
+
+#: modules/js_composer/config/map.php:99
+msgid "Icon 5"
+msgstr ""
+
+#: modules/js_composer/config/map.php:104
+msgid "Text 5"
+msgstr ""
+
+#: modules/js_composer/config/map.php:116
+msgid "Jumbotron"
+msgstr ""
+
+#: modules/js_composer/config/map.php:118
+msgid "Add Jumbotron to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:124
+msgid "Title"
+msgstr ""
+
+#: modules/js_composer/config/map.php:129
+msgid "Sub Title"
+msgstr ""
+
+#: modules/js_composer/config/map.php:146
+msgid "Product Tabs"
+msgstr ""
+
+#: modules/js_composer/config/map.php:148
+msgid "Add Product Tabs to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:154
+#: modules/js_composer/config/map.php:242
+msgid "Tab #1 title"
+msgstr ""
+
+#: modules/js_composer/config/map.php:160
+#: modules/js_composer/config/map.php:248
+msgid "Tab #1 Content, Show :"
+msgstr ""
+
+#: modules/js_composer/config/map.php:163
+#: modules/js_composer/config/map.php:183
+#: modules/js_composer/config/map.php:203
+#: modules/js_composer/config/map.php:251
+#: modules/js_composer/config/map.php:271
+#: modules/js_composer/config/map.php:291
+#: modules/js_composer/config/map.php:319
+#: modules/js_composer/config/map.php:402
+#: modules/js_composer/config/map.php:521
+#: modules/js_composer/config/map.php:826
+#: modules/js_composer/config/map.php:944
+msgid "Select"
+msgstr ""
+
+#: modules/js_composer/config/map.php:164
+#: modules/js_composer/config/map.php:184
+#: modules/js_composer/config/map.php:204
+#: modules/js_composer/config/map.php:252
+#: modules/js_composer/config/map.php:272
+#: modules/js_composer/config/map.php:292
+#: modules/js_composer/config/map.php:403
+#: modules/js_composer/config/map.php:522
+#: modules/js_composer/config/map.php:827
+#: modules/js_composer/config/map.php:945
+msgid "Featured Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:165
+#: modules/js_composer/config/map.php:185
+#: modules/js_composer/config/map.php:205
+#: modules/js_composer/config/map.php:253
+#: modules/js_composer/config/map.php:273
+#: modules/js_composer/config/map.php:293
+#: modules/js_composer/config/map.php:404
+#: modules/js_composer/config/map.php:523
+#: modules/js_composer/config/map.php:828
+#: modules/js_composer/config/map.php:946
+msgid "On Sale Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:166
+#: modules/js_composer/config/map.php:186
+#: modules/js_composer/config/map.php:206
+#: modules/js_composer/config/map.php:254
+#: modules/js_composer/config/map.php:274
+#: modules/js_composer/config/map.php:294
+#: modules/js_composer/config/map.php:405
+#: modules/js_composer/config/map.php:524
+#: modules/js_composer/config/map.php:829
+#: modules/js_composer/config/map.php:947
+msgid "Top Rated Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:167
+#: modules/js_composer/config/map.php:187
+#: modules/js_composer/config/map.php:207
+#: modules/js_composer/config/map.php:255
+#: modules/js_composer/config/map.php:275
+#: modules/js_composer/config/map.php:295
+#: modules/js_composer/config/map.php:406
+#: modules/js_composer/config/map.php:525
+#: modules/js_composer/config/map.php:830
+#: modules/js_composer/config/map.php:948
+msgid "Recent Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:168
+#: modules/js_composer/config/map.php:188
+#: modules/js_composer/config/map.php:208
+#: modules/js_composer/config/map.php:256
+#: modules/js_composer/config/map.php:276
+#: modules/js_composer/config/map.php:296
+#: modules/js_composer/config/map.php:407
+#: modules/js_composer/config/map.php:526
+#: modules/js_composer/config/map.php:831
+#: modules/js_composer/config/map.php:949
+msgid "Best Selling Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:174
+#: modules/js_composer/config/map.php:262
+msgid "Tab #2 title"
+msgstr ""
+
+#: modules/js_composer/config/map.php:180
+#: modules/js_composer/config/map.php:268
+msgid "Tab #2 Content, Show :"
+msgstr ""
+
+#: modules/js_composer/config/map.php:194
+#: modules/js_composer/config/map.php:282
+msgid "Tab #3 title"
+msgstr ""
+
+#: modules/js_composer/config/map.php:200
+#: modules/js_composer/config/map.php:288
+msgid "Tab #3 Content, Show :"
+msgstr ""
+
+#: modules/js_composer/config/map.php:214
+#: modules/js_composer/config/map.php:302
+msgid "Enter Product Items"
+msgstr ""
+
+#: modules/js_composer/config/map.php:221
+#: modules/js_composer/config/map.php:309
+msgid "Enter Product Columns"
+msgstr ""
+
+#: modules/js_composer/config/map.php:234
+msgid "Product Carousel Tabs"
+msgstr ""
+
+#: modules/js_composer/config/map.php:236
+msgid "Add Product Carousel Tabs to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:316
+msgid "Header Align"
+msgstr ""
+
+#: modules/js_composer/config/map.php:320
+msgid "Center"
+msgstr ""
+
+#: modules/js_composer/config/map.php:321
+msgid "Left"
+msgstr ""
+
+#: modules/js_composer/config/map.php:322
+msgid "Right"
+msgstr ""
+
+#: modules/js_composer/config/map.php:334
+msgid "Electro Products Cards Carousel"
+msgstr ""
+
+#: modules/js_composer/config/map.php:336
+msgid "Add products cards carousel to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:344
+#: modules/js_composer/config/map.php:511
+#: modules/js_composer/config/map.php:681
+#: modules/js_composer/config/map.php:753
+#: modules/js_composer/config/map.php:816
+#: modules/js_composer/config/map.php:934
+#: modules/js_composer/config/map.php:1052
+#: modules/js_composer/config/map.php:1104
+msgid "Enter title"
+msgstr ""
+
+#: modules/js_composer/config/map.php:351
+msgid "Rows"
+msgstr ""
+
+#: modules/js_composer/config/map.php:358
+msgid "Columns"
+msgstr ""
+
+#: modules/js_composer/config/map.php:366
+msgid "Show Carousel Navigation"
+msgstr ""
+
+#: modules/js_composer/config/map.php:368
+#: modules/js_composer/config/map.php:377
+#: modules/js_composer/config/map.php:386
+#: modules/js_composer/config/map.php:458
+#: modules/js_composer/config/map.php:576
+#: modules/js_composer/config/map.php:620
+#: modules/js_composer/config/map.php:629
+#: modules/js_composer/config/map.php:638
+#: modules/js_composer/config/map.php:699
+#: modules/js_composer/config/map.php:731
+#: modules/js_composer/config/map.php:771
+#: modules/js_composer/config/map.php:882
+#: modules/js_composer/config/map.php:1000
+#: modules/js_composer/config/map.php:1154
+#: modules/js_composer/config/map.php:1163
+#: modules/js_composer/config/map.php:1172
+#: modules/js_composer/config/map.php:1181
+#: modules/js_composer/config/map.php:1190
+#: modules/js_composer/config/map.php:1199
+msgid "Allow"
+msgstr ""
+
+#: modules/js_composer/config/map.php:375
+msgid "Show Top Text"
+msgstr ""
+
+#: modules/js_composer/config/map.php:384
+msgid "Show Categories"
+msgstr ""
+
+#: modules/js_composer/config/map.php:392
+msgid "Limit"
+msgstr ""
+
+#: modules/js_composer/config/map.php:399
+#: modules/js_composer/config/map.php:518
+#: modules/js_composer/config/map.php:823
+#: modules/js_composer/config/map.php:941
+msgid "Product Shortcode"
+msgstr ""
+
+#: modules/js_composer/config/map.php:408
+#: modules/js_composer/config/map.php:527
+#: modules/js_composer/config/map.php:832
+#: modules/js_composer/config/map.php:950
+msgid "Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:409
+#: modules/js_composer/config/map.php:528
+#: modules/js_composer/config/map.php:833
+#: modules/js_composer/config/map.php:951
+msgid "Product Category"
+msgstr ""
+
+#: modules/js_composer/config/map.php:415
+#: modules/js_composer/config/map.php:464
+#: modules/js_composer/config/map.php:541
+#: modules/js_composer/config/map.php:705
+#: modules/js_composer/config/map.php:777
+#: modules/js_composer/config/map.php:839
+#: modules/js_composer/config/map.php:888
+#: modules/js_composer/config/map.php:957
+#: modules/js_composer/config/map.php:1006
+msgid "Order by"
+msgstr ""
+
+#: modules/js_composer/config/map.php:417
+#: modules/js_composer/config/map.php:466
+#: modules/js_composer/config/map.php:543
+#: modules/js_composer/config/map.php:707
+#: modules/js_composer/config/map.php:841
+#: modules/js_composer/config/map.php:890
+#: modules/js_composer/config/map.php:959
+#: modules/js_composer/config/map.php:1008
+msgid ""
+" Sort retrieved posts by parameter. Defaults to 'date'. One or more options "
+"can be passed"
+msgstr ""
+
+#: modules/js_composer/config/map.php:423
+#: modules/js_composer/config/map.php:472
+#: modules/js_composer/config/map.php:549
+#: modules/js_composer/config/map.php:713
+#: modules/js_composer/config/map.php:785
+#: modules/js_composer/config/map.php:847
+#: modules/js_composer/config/map.php:896
+#: modules/js_composer/config/map.php:965
+#: modules/js_composer/config/map.php:1014
+#: modules/js_composer/config/map.php:1315
+msgid "Order"
+msgstr ""
+
+#: modules/js_composer/config/map.php:425
+#: modules/js_composer/config/map.php:474
+#: modules/js_composer/config/map.php:551
+#: modules/js_composer/config/map.php:715
+#: modules/js_composer/config/map.php:849
+#: modules/js_composer/config/map.php:898
+#: modules/js_composer/config/map.php:967
+#: modules/js_composer/config/map.php:1016
+msgid ""
+"Designates the ascending or descending order of the 'orderby' parameter. "
+"Defaults to 'DESC'."
+msgstr ""
+
+#: modules/js_composer/config/map.php:431
+#: modules/js_composer/config/map.php:557
+#: modules/js_composer/config/map.php:855
+#: modules/js_composer/config/map.php:973
+msgid "Enter Product IDs"
+msgstr ""
+
+#: modules/js_composer/config/map.php:432
+#: modules/js_composer/config/map.php:558
+#: modules/js_composer/config/map.php:856
+#: modules/js_composer/config/map.php:974
+msgid "This will only for Products Shortcode"
+msgstr ""
+
+#: modules/js_composer/config/map.php:439
+#: modules/js_composer/config/map.php:565
+#: modules/js_composer/config/map.php:863
+#: modules/js_composer/config/map.php:981
+msgid "Enter Category Slug"
+msgstr ""
+
+#: modules/js_composer/config/map.php:440
+#: modules/js_composer/config/map.php:566
+#: modules/js_composer/config/map.php:864
+#: modules/js_composer/config/map.php:982
+msgid "This will only for Product Category Shortcode"
+msgstr ""
+
+#: modules/js_composer/config/map.php:447
+#: modules/js_composer/config/map.php:760
+#: modules/js_composer/config/map.php:871
+#: modules/js_composer/config/map.php:989
+msgid "Number of Categories to display"
+msgstr ""
+
+#: modules/js_composer/config/map.php:455
+#: modules/js_composer/config/map.php:696
+#: modules/js_composer/config/map.php:768
+#: modules/js_composer/config/map.php:879
+#: modules/js_composer/config/map.php:997
+msgid "Have no products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:456
+#: modules/js_composer/config/map.php:769
+#: modules/js_composer/config/map.php:880
+#: modules/js_composer/config/map.php:998
+msgid "Show Categories does not have products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:480
+#: modules/js_composer/config/map.php:721
+#: modules/js_composer/config/map.php:793
+#: modules/js_composer/config/map.php:904
+#: modules/js_composer/config/map.php:1022
+msgid "Include ID's"
+msgstr ""
+
+#: modules/js_composer/config/map.php:487
+#: modules/js_composer/config/map.php:911
+#: modules/js_composer/config/map.php:1029
+msgid "Include slug's"
+msgstr ""
+
+#: modules/js_composer/config/map.php:501
+msgid "Electro Products Carousel"
+msgstr ""
+
+#: modules/js_composer/config/map.php:503
+msgid "Add products carousel to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:534
+msgid "Number of products to display"
+msgstr ""
+
+#: modules/js_composer/config/map.php:574
+#: modules/js_composer/config/map.php:1152
+msgid "Show Custom Navigation"
+msgstr ""
+
+#: modules/js_composer/config/map.php:582
+msgid "Carousel: Items"
+msgstr ""
+
+#: modules/js_composer/config/map.php:589
+msgid "Carousel: Items(0 - 479)"
+msgstr ""
+
+#: modules/js_composer/config/map.php:596
+msgid "Carousel: Items(480 - 767)"
+msgstr ""
+
+#: modules/js_composer/config/map.php:603
+msgid "Carousel: Items(768 - 991)"
+msgstr ""
+
+#: modules/js_composer/config/map.php:610
+msgid "Carousel: Items(992 - 1199)"
+msgstr ""
+
+#: modules/js_composer/config/map.php:618
+msgid "Carousel: Show Navigation"
+msgstr ""
+
+#: modules/js_composer/config/map.php:627
+#: modules/js_composer/config/map.php:1188
+msgid "Carousel: Show Dots"
+msgstr ""
+
+#: modules/js_composer/config/map.php:636
+#: modules/js_composer/config/map.php:729
+#: modules/js_composer/config/map.php:1197
+msgid "Carousel: Enable Touch Drag"
+msgstr ""
+
+#: modules/js_composer/config/map.php:644
+#: modules/js_composer/config/map.php:1205
+msgid "Carousel: Nav Next Text"
+msgstr ""
+
+#: modules/js_composer/config/map.php:651
+#: modules/js_composer/config/map.php:1212
+msgid "Carousel: Nav Prev Text"
+msgstr ""
+
+#: modules/js_composer/config/map.php:658
+#: modules/js_composer/config/map.php:1219
+msgid "Carousel: Margin"
+msgstr ""
+
+#: modules/js_composer/config/map.php:671
+msgid "Electro Brands Carousel"
+msgstr ""
+
+#: modules/js_composer/config/map.php:673
+msgid "Add brands carousel to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:688
+msgid "Number of Brands to display"
+msgstr ""
+
+#: modules/js_composer/config/map.php:697
+msgid "Show Brands does not have products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:743
+msgid "Product List Categories"
+msgstr ""
+
+#: modules/js_composer/config/map.php:745
+msgid "Add product categories to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:779
+msgid ""
+" Sort retrieved posts by parameter. Defaults to 'name'. One or more options "
+"can be passed"
+msgstr ""
+
+#: modules/js_composer/config/map.php:787
+msgid ""
+"Designates the ascending or descending order of the 'orderby' parameter. "
+"Defaults to 'ASC'."
+msgstr ""
+
+#: modules/js_composer/config/map.php:806
+msgid "Product 2-1-2 Grid"
+msgstr ""
+
+#: modules/js_composer/config/map.php:808
+#: modules/js_composer/config/map.php:926
+msgid "Add products to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:924
+msgid "Product 6-1 Grid"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1042
+msgid "Electro Onsale Product"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1044
+msgid "Add onsale product to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1059
+#: modules/js_composer/config/map.php:1112
+msgid "Show Savings Details"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1061
+#: modules/js_composer/config/map.php:1114
+msgid "Show Savings"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1066
+#: modules/js_composer/config/map.php:1120
+msgid "Savings in"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1068
+#: modules/js_composer/config/map.php:1122
+msgid "Amount"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1069
+#: modules/js_composer/config/map.php:1123
+msgid "Percentage"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1075
+#: modules/js_composer/config/map.php:1130
+msgid "Savings Text"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1081
+#: modules/js_composer/config/map.php:1144
+msgid "Product ID"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1094
+msgid "Electro Onsale Products Carousel"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1096
+msgid "Add onsale products carousel to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1137
+msgid "Number of Products to display"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1161
+msgid "Show Progress"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1170
+msgid "Show Timer"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1179
+msgid "Show Cart Button"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1232
+msgid "Electro Team Member"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1234
+msgid "Add a team member profile to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1242
+msgid "Full Name"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1244
+msgid "Enter team member full name"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1249
+msgid "Designation"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1251
+msgid "Enter designation of team member"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1255
+msgid "Profile Pic"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1260
+msgid "Display Style"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1262
+msgid "Square"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1263
+msgid "Circle"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1270
+msgid "Link"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1272
+msgid "Add link to the team member. Leave blank if there aren't any"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1277
+msgid "Extra Class"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1279
+msgid "Add your extra classes here."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1290
+msgid "Electro Terms"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1292
+msgid ""
+"Adds a shortcode for get_terms. Used to get terms including categories, "
+"product categories, etc."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1300
+msgid "Taxonomy"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1302
+msgid ""
+"Taxonomy name, or comma-separated taxonomies, to which results should be "
+"limited."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1308
+msgid "Order By"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1310
+msgid ""
+"Field(s) to order terms by. Accepts term fields ('name', 'slug', "
+"'term_group', 'term_id', 'id', 'description'). Defaults to 'name'."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1317
+msgid ""
+"Whether to order terms in ascending or descending order. Accepts 'ASC' "
+"(ascending) or 'DESC' (descending). Default 'ASC'."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1322
+msgid "Hide Empty ?"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1324
+msgid "Whether to hide terms not assigned to any posts. Accepts 1 or 0. Default 0."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1329
+msgid "Include IDs"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1331
+msgid "Comma-separated string of term ids to include."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1335
+msgid "Exclude IDs"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1337
+msgid ""
+"Comma-separated string of term ids to exclude. If Include is non-empty, "
+"Exclude is ignored."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1341
+msgid "Number"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1343
+msgid ""
+"Maximum number of terms to return. Accepts 0 (all) or any positive number. "
+"Default 0 (all)."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1348
+msgid "Offset"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1350
+msgid "The number by which to offset the terms query."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1355
+msgid "Name"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1357
+msgid "Name or comma-separated string of names to return term(s) for."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1361
+msgid "Slug"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1363
+msgid "Slug or comma-separated string of slugs to return term(s) for."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1367
+msgid "Hierarchical"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1369
+msgid ""
+"Whether to include terms that have non-empty descendants. Accepts 1 (true) "
+"or 0 (false). Default 1 (true)"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1374
+msgid "Child Of"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1376
+msgid ""
+"Term ID to retrieve child terms of. If multiple taxonomies are passed, "
+"child_of is ignored. Default 0."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1381
+msgid "Include \"Child Of\" term ?"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1383
+msgid ""
+"Include \"Child Of\" term in the terms list. Accepts 1 (yes) or 0 (no). "
+"Default 1."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1388
+msgid "Parent"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1390
+msgid "Parent term ID to retrieve direct-child terms of."
+msgstr ""
+
+#: modules/post-formats/post-formats.php:70
+msgid "Loading..."
+msgstr ""
+
+#: modules/post-formats/views/format-audio.php:6
+msgid "Audio Options"
+msgstr ""
+
+#: modules/post-formats/views/format-audio.php:10
+msgid "Enter the paths to your audio files in the fields below"
+msgstr ""
+
+#: modules/post-formats/views/format-audio.php:17
+msgid "MP3 File URL"
+msgstr ""
+
+#: modules/post-formats/views/format-audio.php:18
+msgid "URL to an .mp3 file"
+msgstr ""
+
+#: modules/post-formats/views/format-audio.php:28
+msgid "OGA File URL"
+msgstr ""
+
+#: modules/post-formats/views/format-audio.php:29
+msgid "URL to an .oga or .ogg file"
+msgstr ""
+
+#: modules/post-formats/views/format-audio.php:39
+msgid "Embedded Audio"
+msgstr ""
+
+#: modules/post-formats/views/format-audio.php:40
+msgid "Add embedded audio formats."
+msgstr ""
+
+#: modules/post-formats/views/format-gallery.php:25
+msgid "Edit Gallery"
+msgstr ""
+
+#: modules/post-formats/views/format-gallery.php:25
+msgid "Add Images to Gallery"
+msgstr ""
+
+#: modules/post-formats/views/format-link.php:5
+#: modules/post-formats/views/format-link.php:12
+msgid "Link URL"
+msgstr ""
+
+#: modules/post-formats/views/format-link.php:13
+msgid "The URL of your link."
+msgstr ""
+
+#: modules/post-formats/views/format-quote.php:5
+#: modules/post-formats/views/format-quote.php:14
+msgid "Quote"
+msgstr ""
+
+#: modules/post-formats/views/format-quote.php:15
+msgid "The text being quoted."
+msgstr ""
+
+#: modules/post-formats/views/format-quote.php:25
+msgid "Source Name"
+msgstr ""
+
+#: modules/post-formats/views/format-quote.php:26
+msgid "The person being cited."
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:5
+msgid "Video Options"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:7
+msgid ""
+"For HTML5 video support and Flash fallback please include an M4V file. "
+"Include an OGV file optionally to increase cross browser support."
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:13
+msgid "M4V File URL"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:14
+msgid "The URL to the .m4v video file"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:24
+msgid "OGV File URL"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:25
+msgid "The URL to the .ogv video file"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:35
+msgid "WEBM File URL"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:36
+msgid "The URL to the .webm video file"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:46
+msgid "Video Poster"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:47
+msgid "A preivew image."
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:57
+msgid "Embedded Code"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:58
+msgid "If not using self hosted video you can include embeded code here."
+msgstr ""
+
+#: modules/post-formats/views/tabs.php:9
+msgid "Standard"
+msgstr ""
+
+#: modules/post-types/static-block.php:51
+msgid "Add New Block"
+msgstr ""
+
+#: modules/post-types/static-block.php:52
+msgid "Edit Block"
+msgstr ""
+
+#: modules/post-types/static-block.php:53
+msgid "New Block"
+msgstr ""
+
+#: modules/post-types/static-block.php:54
+msgid "Static Blocks"
+msgstr ""
+
+#: modules/post-types/static-block.php:55
+msgid "View Block"
+msgstr ""
+
+#: modules/post-types/static-block.php:56
+msgid "Search"
+msgstr ""
+
+#: modules/post-types/static-block.php:57
+msgid "No blocks found"
+msgstr ""
+
+#: modules/post-types/static-block.php:58
+msgid "No blocks found in Trash"
+msgstr ""
+
+#: modules/post-types/static-block.php:199
+msgid "Content Options"
+msgstr ""
+
+#: modules/post-types/static-block.php:205
+msgid "Content Filters"
+msgstr ""
+
+#: modules/post-types/static-block.php:206
+msgid "Apply all WP content filters? This will include plugin added filters."
+msgstr ""
+
+#: modules/post-types/static-block.php:211
+msgid "Defaults (recommended)"
+msgstr ""
+
+#: modules/post-types/static-block.php:212
+msgid "All Content Filters"
+msgstr ""
+
+#: modules/post-types/static-block.php:216
+msgid "Auto Paragraphs"
+msgstr ""
+
+#: modules/post-types/static-block.php:217
+msgid ""
+"Add &lt;p&gt; and &lt;br&gt; tags automatically. (disabling may fix layout "
+"issues)"
+msgstr ""
+
+#: modules/post-types/static-block.php:222
+msgid "On"
+msgstr ""
+
+#: modules/post-types/static-block.php:223
+msgid "Off"
+msgstr ""
+
+#: modules/theme-shortcodes/theme-shortcodes.php:19
+msgid "You need to enable YITH Compare plugin for product comparison to work"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Electro Extensions"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://demo2.transvelo.in/electro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This selection of extensions compliment our lean and mean theme for "
+"WooCommerce, Electro. Please note: they don’t work with any WordPress "
+"theme, just Electro."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Transvelo"
+msgstr ""
+
+#: modules/post-types/static-block.php:48
+msgctxt "post type general name"
+msgid "Static Content Blocks"
+msgstr ""
+
+#: modules/post-types/static-block.php:49
+msgctxt "post type singular name"
+msgid "Static Block"
+msgstr ""
+
+#: modules/post-types/static-block.php:50
+msgctxt "block"
+msgid "Add New"
+msgstr ""

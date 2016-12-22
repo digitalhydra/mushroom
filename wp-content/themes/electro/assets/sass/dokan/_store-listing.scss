@@ -1,0 +1,48 @@
+ul.dokan-seller-wrap {
+ 	@include make-row();
+
+	li.dokan-single-seller {
+		@include make-col();
+		@include media-breakpoint-up(lg) {
+			@include make-col-span(3);
+		}
+
+		border:none;
+
+		&:nth-child(2n+1),
+		&:nth-child(3n+1) {
+
+			margin-#{$end}: 0;
+			clear: none;
+		}
+
+		.dokan-store-thumbnail {
+			border: 1px solid #ededed;
+		}
+
+		.dokan-store-caption {
+			h3 {
+				font-size: 1.071em;
+				line-height: 1.286em;
+				font-weight: bold;
+				overflow: hidden;
+
+				a {
+					&,
+					&:hover,
+					&:focus {
+						color: #0062bd;
+					}
+				}
+			}
+		}
+	}
+}
+
+.dokan-single-store {
+	.dokan-store-tabs {
+		ul {
+			border-width: 1px;
+		}
+	}
+}

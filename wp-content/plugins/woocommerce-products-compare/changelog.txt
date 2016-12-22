@@ -1,0 +1,19 @@
+*** WooCommerce Products Compare Changelog ***
+
+2015.11.24 - version 1.0.4
+* Fix - Check to make sure items are of product type before showing to prevent errors
+* Fix - When WordPress is installed in subfolder, prevents compare page from loading
+
+2015.09.16 - version 1.0.3
+* Fix - Typo on class name causing fatal error
+
+2015.08.10 - version 1.0.2
+* Tweak - Added a space after the checkbox of compare link to improve UX
+* Add - Version number to template file
+* Add - Template override status in status report
+
+2015.07.13 - version 1.0.1
+* Fix - filter for endpoint was not working due to load order
+
+2015.04.20 - version 1.0.0
+* initial release

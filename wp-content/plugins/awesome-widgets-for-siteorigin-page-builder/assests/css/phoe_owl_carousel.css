@@ -1,0 +1,185 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+/* owl*/
+
+.woocommerce ul.products .owl-item li.product, .woocommerce-page ul.products .owl-item li.product {
+    margin: 0 auto;
+    width: 90%;
+    display:block;
+    float:none;
+}
+.woocommerce-cart .cross-sells .owl-wrapper .owl-item {
+    width: 80px !important;
+}
+.woocommerce-cart .cross-sells .products .owl-prev, .woocommerce-cart .cross-sells .products .owl-next {
+    font-size: 10px;
+    top: 20%;
+}
+
+
+
+.products .owl-prev {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #d3d3d3;
+    color: #333333;
+    font-size: 12px;
+    left: 0;
+    padding: 5px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 32%;
+    transform: translate(0px, 32%);
+}
+.products .owl-next {
+    background: #fff none repeat scroll 0 0;
+    font-size: 12px;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 32%;
+    color:#333333;
+    border: 1px solid #d3d3d3;
+    transform: translate(0px, 32%);
+}
+
+#owl-demo .item {
+    background: #3fbf79;
+    padding: 30px 0px;
+    margin: 10px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#owl-demo .item {
+    background:transparent;
+}
+
+.our-brand  .owl-controls.clickable {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+}
+.our-brand .owl-carousel {
+    position:static;
+}
+.our-brand .owl-wrapper-outer {
+    position:static;
+}
+.our-brand .owl-prev {
+    color: transparent;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+.our-brand .owl-prev::before {
+    background: rgba(0, 0, 0, 0) url("images/product-nxt-main.png") no-repeat scroll 0 0;
+    content: "";
+    display: table-cell;
+    height: 16px;
+    transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+    width: 10px;
+}
+.our-brand .owl-prev:hover:before {
+    background: rgba(0, 0, 0, 0) url("images/product-nxt.png") no-repeat scroll 0 0;
+}	
+.our-brand .owl-next {
+    color: transparent;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+.our-brand  .owl-next:before {
+    background: rgba(0, 0, 0, 0) url("images/product-nxt-main.png") no-repeat scroll 0 0;
+    width: 10px;
+    height: 16px;
+    content:"";
+    display:block;
+}
+.our-brand  .owl-next:hover:before {
+    background: rgba(0, 0, 0, 0) url("images/product-nxt.png") no-repeat scroll 0 0;
+}
+.single.single-product .related.products ul.products .owl-item li.product {
+    margin: 0 auto;
+    display:block;
+    width:90%;
+    float:none;
+}

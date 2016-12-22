@@ -1,0 +1,26 @@
+.electro-tabs {
+	#tab-seller {
+		&.electro-tab  {
+			.tab-content {
+				h2 {
+					color: #333e48;
+				    font-size: 1.643em;
+				    line-height: 1.043em;
+				    margin-bottom: 1em;
+				}
+
+				ul.list-unstyled {
+					li.clearfix {
+						span.seller-rating {
+							display: block;
+						}
+
+						span.text {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}

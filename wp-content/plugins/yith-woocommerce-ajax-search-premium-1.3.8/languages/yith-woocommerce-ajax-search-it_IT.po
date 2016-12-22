@@ -1,0 +1,550 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Ajax Search Premium\n"
+"POT-Creation-Date: 2016-01-08 15:39+0100\n"
+"PO-Revision-Date: 2016-01-08 15:39+0100\n"
+"Last-Translator: \n"
+"Language-Team: Yithemes <plugins@yithemes.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../class.yith-wcas-admin.php:114 ../class.yith-wcas-admin.php:191
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../class.yith-wcas-admin.php:115 ../plugin-options/settings-options.php:39
+msgid "Search"
+msgstr "Cerca"
+
+#: ../class.yith-wcas-admin.php:116
+msgid "Output"
+msgstr "Risultati di ricerca"
+
+#: ../class.yith-wcas-admin.php:122 ../class.yith-wcas-admin.php:123
+msgid "Ajax Search"
+msgstr "Ajax Search"
+
+#: ../class.yith-wcas-admin.php:213
+msgid "Plugin Documentation"
+msgstr "Documentazione plugin"
+
+#: ../class.yith-wcas.php:355
+msgid "sale"
+msgstr "in saldo"
+
+#: ../class.yith-wcas.php:359
+msgid "Out of stock"
+msgstr "Prodotto esaurito"
+
+#: ../class.yith-wcas.php:364
+msgid "featured"
+msgstr "in evidenza"
+
+#: ../class.yith-wcas.php:415 ../plugin-options/output-options.php:246
+msgid "No results"
+msgstr "Nessun risultato"
+
+#: ../class.yith-wcas.php:735
+msgid "Search in product brands"
+msgstr "Cerca marche prodotti"
+
+#: ../class.yith-wcas.php:736
+msgid "Extend search in product brands"
+msgstr "Estendi la ricerca alle marche dei prodotti"
+
+#: ../init.php:56
+msgid ""
+"YITH WooCommerce Ajax Search Premium is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Ajax Search Premium è abilitato ma non in funzione. Devi "
+"aver installato WooCommerce per poterlo utilizzare."
+
+#: ../plugin-options/output-options.php:20
+msgid "Output Options"
+msgstr "Impostazioni risultati di ricerca"
+
+#: ../plugin-options/output-options.php:26
+msgid "Show thumbnail"
+msgstr "Mostra thumbnail"
+
+#: ../plugin-options/output-options.php:27
+msgid "Choose if you want show thumbnail and position"
+msgstr "Scegli se mostrare la thumbnail e dove"
+
+#: ../plugin-options/output-options.php:33
+msgid "Hide thumbnail"
+msgstr "Nascondi thumbnail"
+
+#: ../plugin-options/output-options.php:34
+msgid "Show on the Left"
+msgstr "Mostra a sinistra"
+
+#: ../plugin-options/output-options.php:35
+msgid "Show on the Right"
+msgstr "Mostra a destra"
+
+#: ../plugin-options/output-options.php:41
+msgid "Size of thumbnails"
+msgstr "Dimensione thumbnail"
+
+#: ../plugin-options/output-options.php:54
+msgid "Show price"
+msgstr "Mostra prezzo"
+
+#: ../plugin-options/output-options.php:55
+msgid "Show price of product"
+msgstr "Mostra prezzo prodotto"
+
+#: ../plugin-options/output-options.php:63
+msgid "Price Label"
+msgstr "Etichetta prezzo"
+
+#: ../plugin-options/output-options.php:64
+msgid "Show a label before the price"
+msgstr "Mostra un'etichetta prima del prezzo"
+
+#: ../plugin-options/output-options.php:66
+msgid "Price:"
+msgstr "Prezzo:"
+
+#: ../plugin-options/output-options.php:72
+msgid "Loader"
+msgstr "Icona di caricamento"
+
+#: ../plugin-options/output-options.php:73
+msgid "Loader gif"
+msgstr "GIF icona di caricamento"
+
+#: ../plugin-options/output-options.php:85
+msgid "Sales and Features badges"
+msgstr "Simboli \"in saldo\" e \"in evidenza\""
+
+#: ../plugin-options/output-options.php:91
+msgid "Show sale badge"
+msgstr "Mostra adesivo \"in saldo\""
+
+#: ../plugin-options/output-options.php:92
+msgid "Show sale badge if the product is on sale"
+msgstr "Mostra adesivo \"in saldo\" per i prodotti in saldo"
+
+#: ../plugin-options/output-options.php:99
+msgid "Sale badge background color"
+msgstr "Colore sfondo adesivo \"in saldo\""
+
+#: ../plugin-options/output-options.php:107
+msgid "Sale badge color"
+msgstr "Colore adesivo \"in saldo\""
+
+#: ../plugin-options/output-options.php:115
+msgid "Show featured badge"
+msgstr "Mostra adesivo \"in evidenza\""
+
+#: ../plugin-options/output-options.php:123
+msgid "Featured badge background color"
+msgstr "Colore sfondo adesivo \"in evidenza\""
+
+#: ../plugin-options/output-options.php:131
+msgid "Featured badge color"
+msgstr "Colore adesivo \"in evidenza\""
+
+#: ../plugin-options/output-options.php:139
+msgid "Show out of stock badge"
+msgstr "Mostra adesivo \"prodotto esaurito\" per i prodotti in saldo"
+
+#: ../plugin-options/output-options.php:147
+msgid "Out of stock badge background color"
+msgstr "Colore sfondo adesivo \"prodotto esaurito\""
+
+#: ../plugin-options/output-options.php:155
+msgid "Out of stock badge color"
+msgstr "Colore del testo del messaggio Esaurito."
+
+#: ../plugin-options/output-options.php:164
+msgid "Hide featured bagde if the product is on sale"
+msgstr "Nascondi adesivo \"in evidenza\" per i prodotti in saldo"
+
+#: ../plugin-options/output-options.php:177
+msgid "Title & Excerpt"
+msgstr "Titolo & Riassunto"
+
+#: ../plugin-options/output-options.php:183
+msgid "Title color"
+msgstr "Colore titolo"
+
+#: ../plugin-options/output-options.php:191
+msgid "Show excerpt"
+msgstr "Mostra riassunto"
+
+#: ../plugin-options/output-options.php:192
+msgid "Show excerpt of product"
+msgstr "Mostra riassunto prodotto"
+
+#: ../plugin-options/output-options.php:199
+msgid "Number of words to show in excerpt"
+msgstr "Numero di parole da mostrare nel riassunto"
+
+#: ../plugin-options/output-options.php:217
+msgid "\"View All\" Link"
+msgstr "Link \"Visualizza tutto\""
+
+#: ../plugin-options/output-options.php:225
+msgid "Show \"view all\" link"
+msgstr "Mostra link \"Visualizza tutto\""
+
+#: ../plugin-options/output-options.php:226
+msgid "Add a link to the bottom of results"
+msgstr "Aggiungi un link sotto tutti i risultati"
+
+#: ../plugin-options/output-options.php:234
+msgid "Text of \"view all\" link"
+msgstr "Testo del link \"Visualizza tutto\""
+
+#: ../plugin-options/output-options.php:235
+msgid "Add a link at the bottom of results"
+msgstr "Aggiungi un link sotto tutti i risultati"
+
+#: ../plugin-options/output-options.php:237
+msgid "View all"
+msgstr "Visualizza tutto"
+
+#: ../plugin-options/output-options.php:243
+msgid "Text of \"no results\""
+msgstr ""
+
+#: ../plugin-options/output-options.php:244
+msgid "Show this text for no results"
+msgstr ""
+
+#: ../plugin-options/search-options.php:20
+msgid "Search settings"
+msgstr "Impostazioni di ricerca"
+
+#: ../plugin-options/search-options.php:27
+msgid "Choose element types to search"
+msgstr "Scegli il tipo di elementi da cercare"
+
+#: ../plugin-options/search-options.php:28
+msgid "Choose if you want to extend search also to posts and pages"
+msgstr "Scegli se estendere la ricerca anche ad articoli e pagine"
+
+#: ../plugin-options/search-options.php:34
+#: ../templates/yith-woocommerce-ajax-search.php:29
+#: ../templates/yith-woocommerce-ajax-search.php:45
+msgid "All"
+msgstr "Tutti"
+
+#: ../plugin-options/search-options.php:35
+#: ../templates/yith-woocommerce-ajax-search.php:28
+msgid "Products"
+msgstr "Prodotti"
+
+#: ../plugin-options/search-options.php:40
+msgid "Search in excerpt"
+msgstr "Cerca in riassunto"
+
+#: ../plugin-options/search-options.php:41
+msgid "Extend search in the excerpt of the product"
+msgstr "Estendi ricerca anche al riassunto del prodotto"
+
+#: ../plugin-options/search-options.php:49
+msgid "Search in content"
+msgstr "Cerca nel contenuto"
+
+#: ../plugin-options/search-options.php:50
+msgid "Extend search in the content of the product"
+msgstr "Estendi ricerca anche al contenuto del prodotto"
+
+#: ../plugin-options/search-options.php:57
+msgid "Search in product categories"
+msgstr "Cerca tra le categorie prodotto"
+
+#: ../plugin-options/search-options.php:58
+msgid "Extend search in product categories"
+msgstr "Estendi ricerca alle categorie prodotto"
+
+#: ../plugin-options/search-options.php:65
+msgid "Search in product tags"
+msgstr "Cerca fra i tag del prodotto"
+
+#: ../plugin-options/search-options.php:66
+msgid "Extend search in product tags"
+msgstr "Estendi ricerca ai tag del prodotto"
+
+#: ../plugin-options/search-options.php:74
+msgid "Multiple Word Search"
+msgstr "Ricerca per più parole"
+
+#: ../plugin-options/search-options.php:80
+msgid "Show items containing all words typed"
+msgstr "Mostra articoli contenenti tutte le parole inserite"
+
+#: ../plugin-options/search-options.php:81
+msgid "Show items containing al least one of the words typed"
+msgstr "Mostra articoli contenenti almeno una delle parole inserite"
+
+#: ../plugin-options/search-options.php:93
+msgid "Search by Custom Field"
+msgstr "Ricerca per Campo personalizzato"
+
+#: ../plugin-options/search-options.php:94
+msgid ""
+"Extend search functionality so that search in a custom field. Write custom "
+"field's name comma separated. Attention: this feature may slow down the "
+"search process on some servers."
+msgstr ""
+
+#: ../plugin-options/search-options.php:100
+msgid "Custom field name"
+msgstr "Nome campo personalizzato"
+
+#: ../plugin-options/search-options.php:115
+msgid "Search by Sku Settings"
+msgstr "Impostazioni per Cerca per SKU "
+
+#: ../plugin-options/search-options.php:116
+msgid ""
+"Extend search functionality so that search includes also sku. Attention: "
+"this feature may slow down the search process on some servers."
+msgstr ""
+"Estendi la funzionalità di ricerca in modo tale che sia incluso anche lo SKU "
+"del prodotto. Attenzione: questa funzionalità potrebbe rallentare il "
+"processo di ricerca su alcuni server."
+
+#: ../plugin-options/search-options.php:123
+msgid "Search by sku"
+msgstr "Cerca per SKU"
+
+#: ../plugin-options/search-options.php:124
+msgid "Extend search functionality so that search includes also sku"
+msgstr ""
+"Estendi la funzionalità di ricerca in modo tale da includere anche lo SKU"
+
+#: ../plugin-options/search-options.php:132
+msgid "Search by sku variable products"
+msgstr "Cerca tra prodotti con SKU variabile"
+
+#: ../plugin-options/search-options.php:133
+msgid "Extend sku search including variable products."
+msgstr "Estendi ricerca SKU includendo prodotti variabili."
+
+#: ../plugin-options/settings-options.php:21
+msgid "General settings"
+msgstr "Impostazioni generali"
+
+#: ../plugin-options/settings-options.php:27
+msgid "Search input label"
+msgstr "Etichetta campo \"Cerca\""
+
+#: ../plugin-options/settings-options.php:29
+#: ../plugin-options/settings-options.php:37
+msgid "Label for Search input field."
+msgstr "Etichetta per il campo \"Cerca\""
+
+#: ../plugin-options/settings-options.php:31
+msgid "Search for products"
+msgstr "Cerca prodotto"
+
+#: ../plugin-options/settings-options.php:35
+msgid "Search submit label"
+msgstr "Etichetta campo \"Submit\""
+
+#: ../plugin-options/settings-options.php:43
+msgid "Minimum number of characters"
+msgstr "Numero minimo di caratteri"
+
+#: ../plugin-options/settings-options.php:44
+msgid "Minimum number of characters required to trigger autosuggest."
+msgstr ""
+"Numero minimo di caratteri richiesti per mostrare i suggerimenti automatici."
+
+#: ../plugin-options/settings-options.php:57
+msgid "Maximum number of results"
+msgstr "Numero massimo di risultati"
+
+#: ../plugin-options/settings-options.php:58
+msgid "Maximum number of results showed in autosuggest box."
+msgstr "Numero massimo di risultati da mostrare nel riquadro suggerimenti."
+
+#: ../plugin-options/settings-options.php:77
+msgid "Additional Features"
+msgstr "Funzionalità aggiuntive"
+
+#: ../plugin-options/settings-options.php:78
+msgid ""
+"If these options are not showed, your theme may not support these features. "
+"Please, contact the developer of theme to implement them."
+msgstr ""
+"Se non visualizzi queste opzioni, il tuo tema potrebbe non supportare queste "
+"funzionalità. Contatta lo sviluppatore del tuo tema per implementarle."
+
+#: ../plugin-options/settings-options.php:85
+msgid "Show filter for search fields"
+msgstr "Mostra filtro per campi di ricerca"
+
+#: ../plugin-options/settings-options.php:86
+msgid ""
+"Show filter for search fields (it allows searching the Whole site or only "
+"among products)"
+msgstr ""
+"Mostra filtro per campi di ricerca (consente la ricerca in tutto il sito o "
+"solo tra i prodotti)"
+
+#: ../plugin-options/settings-options.php:94
+msgid "Show the category list"
+msgstr "Mostra lista categorie"
+
+#: ../plugin-options/settings-options.php:103
+msgid "Categories to show"
+msgstr "Categorie da mostrare"
+
+#: ../plugin-options/settings-options.php:104
+msgid ""
+"This option lets you decide to show all the categories or only the main ones"
+msgstr ""
+"Con questa opzione puoi scegliere di mostrare tutte le categorie o solo le "
+"principali"
+
+#: ../plugin-options/settings-options.php:110
+msgid "Main Categories"
+msgstr "Categorie principali"
+
+#: ../plugin-options/settings-options.php:111
+msgid "All Categories"
+msgstr "Tutte le categorie"
+
+#: ../templates/yith-woocommerce-ajax-search.php:54
+msgid "Search for:"
+msgstr "Cerca:"
+
+#: ../widgets/class.yith-wcas-ajax-search.php:28
+msgid "An Ajax Search box for products only."
+msgstr "Un filtro di ricerca Ajax solo per i prodotti."
+
+#: ../widgets/class.yith-wcas-ajax-search.php:30
+msgid "YITH WooCommerce Ajax Product Search"
+msgstr "YITH WooCommerce Ajax Product Search"
+
+#: ../widgets/class.yith-wcas-ajax-search.php:89
+msgid "Title:"
+msgstr "Titolo:"
+
+#~ msgid ""
+#~ "Extend search functionality so that search in a custom field. Attention: "
+#~ "this feature may slow down the search process on some servers."
+#~ msgstr ""
+#~ "Estendere le funzionalità di ricerca anche all'interno di campi "
+#~ "personalizzati. Attenzione: questa funzione può rallentare il processo di "
+#~ "ricerca su alcuni server. Inserire il nome dei campi separati da virgola."
+
+#~ msgid "Test of \"view all\" link"
+#~ msgstr "Testo di"
+
+#, fuzzy
+#~ msgid "Search %s"
+#~ msgstr "Cerca"
+
+#, fuzzy
+#~ msgid "Search Categories"
+#~ msgstr "Cerca:"
+
+#, fuzzy
+#~ msgid "%s Settings"
+#~ msgstr "Impostazioni"
+
+#, fuzzy
+#~ msgid "layout settings"
+#~ msgstr "Impostazioni"
+
+#, fuzzy
+#~ msgid "Plugin Settings"
+#~ msgstr "Impostazioni"
+
+#, fuzzy
+#~ msgid "Settings saved"
+#~ msgstr "Impostazioni"
+
+#, fuzzy
+#~ msgid "Settings reset"
+#~ msgstr "Impostazioni"
+
+#, fuzzy
+#~ msgid "Maximum number of activations exceeded"
+#~ msgstr "Numero massimo  di risultati"
+
+#, fuzzy
+#~ msgid "Search for a product"
+#~ msgstr "Cerca prodotto"
+
+#, fuzzy
+#~ msgid "Select"
+#~ msgstr "Seleziona una data"
+
+#, fuzzy
+#~ msgid "File Upload"
+#~ msgstr "Upload"
+
+#, fuzzy
+#~ msgid "Click to toggle"
+#~ msgstr "Clicca per anteprima"
+
+#, fuzzy
+#~ msgid "Insert the title for the field."
+#~ msgstr "Seleziona un font"
+
+#, fuzzy
+#~ msgid "Select the type for this field."
+#~ msgstr "Seleziona un font"
+
+#, fuzzy
+#~ msgid "Selected"
+#~ msgstr "Seleziona una data"
+
+#~ msgid "Upload"
+#~ msgstr "Upload"
+
+#~ msgid "px"
+#~ msgstr "px"
+
+#~ msgid "em"
+#~ msgstr "em"
+
+#~ msgid "pt"
+#~ msgstr "pt"
+
+#~ msgid "rem"
+#~ msgstr "rem"
+
+#~ msgid "Regular"
+#~ msgstr "Regular"
+
+#~ msgid "Bold"
+#~ msgstr "Bold"
+
+#~ msgid "Extra bold"
+#~ msgstr "Extra bold"
+
+#~ msgid "Italic"
+#~ msgstr "Italic"
+
+#~ msgid "Italic bold"
+#~ msgstr "Italic bold"
+
+#~ msgid "Label for Search submit field."
+#~ msgstr "Etichetta per il campo di submit"
+
+#~ msgid "Docs"
+#~ msgstr "Documentazione"
+
+#~ msgid "Hours"
+#~ msgstr "Ore"
+
+#~ msgid "Minutes"
+#~ msgstr "Minuti"

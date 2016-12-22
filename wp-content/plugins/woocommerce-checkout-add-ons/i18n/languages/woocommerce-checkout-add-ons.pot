@@ -1,0 +1,308 @@
+# Copyright (C) 2015 SkyVerge
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Checkout Add-Ons 1.4.2\n"
+"Report-Msgid-Bugs-To: https://support.woothemes.com/hc/\n"
+"POT-Creation-Date: 2014-06-15 22:41:24+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:57
+msgid "Text"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:58
+msgid "Text Area"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:59
+msgid "Select"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:60
+msgid "Multiselect"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:61
+msgid "Radio"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:62
+msgid "Checkbox"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:63
+msgid "Multi-checkbox"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:64
+msgid "File"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:74
+msgid "Required"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:75
+msgid "Display in View Orders screen"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:76
+msgid "Allow Sorting on View Orders screen"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:77
+msgid "Allow Filtering on View Orders screen"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:115
+msgid "Name is a required field"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:116
+msgid "A select/multiselect/checkbox/radio field must have at least one option"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:117
+#: includes/admin/views/html-add-on-editor-table-row.php:58
+msgid "Pipe (|) separates options"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:118
+msgid "Cost of add-on"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:119
+#: includes/frontend/class-wc-checkout-add-ons-frontend.php:221
+msgid "Select an Option"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:120
+#: includes/frontend/class-wc-checkout-add-ons-frontend.php:222
+msgid "Select Some Options"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:121
+#: includes/frontend/class-wc-checkout-add-ons-frontend.php:223
+msgid "No results match"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:165
+#: includes/admin/class-wc-checkout-add-ons-admin.php:166
+msgid "Checkout Add-Ons"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:185
+msgid "Checkout Add-Ons Editor"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:214
+msgid "Name"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:215
+msgid "Add-on name displayed in the admin and order details, e.g., \"Gift Message\""
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:218
+msgid "Checkout Label"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:219
+msgid ""
+"Optional descriptive label shown on checkout, e.g., \"Add a Gift "
+"Message?\". This will default to Name if blank."
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:221
+msgid "Type"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:223
+msgid "Options / Costs"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:224
+msgid ""
+"Use Pipe (|) to separate options and surround options with double stars "
+"(**) to set as a default. To set a price for an option, append it to the "
+"option with an equation mark. Example: Yes=5.00|No"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:226
+msgid "Attributes"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:227
+msgid "Taxes"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:234
+msgid "New Add-On"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:235
+msgid "Remove Selected"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:237
+msgid "Save Add-Ons"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:278
+msgid "Standard"
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:331
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: includes/admin/class-wc-checkout-add-ons-admin.php:440
+msgid "Add-Ons Saved"
+msgstr ""
+
+#: includes/admin/post-types/class-wc-checkout-add-ons-shop-order-cpt.php:170
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/post-types/class-wc-checkout-add-ons-shop-order-cpt.php:177
+#: includes/class-wc-checkout-add-on.php:206
+#: includes/class-wc-checkout-add-on.php:219
+msgid "(File has been removed)"
+msgstr ""
+
+#: includes/admin/post-types/class-wc-checkout-add-ons-shop-order-cpt.php:296
+#: includes/admin/post-types/class-wc-checkout-add-ons-shop-order-cpt.php:313
+#: includes/admin/post-types/class-wc-checkout-add-ons-shop-order-cpt.php:319
+#: includes/admin/post-types/class-wc-checkout-add-ons-shop-order-cpt.php:329
+#: includes/admin/post-types/class-wc-checkout-add-ons-shop-order-cpt.php:351
+msgid "Show all "
+msgstr ""
+
+#: includes/admin/views/html-add-on-editor-table-row.php:71
+msgid "Taxable"
+msgstr ""
+
+#: includes/admin/views/html-add-on-editor-table-row.php:72
+msgid "Not taxable"
+msgstr ""
+
+#: includes/class-wc-checkout-add-on.php:198
+msgid "Uploaded files:"
+msgstr ""
+
+#: includes/class-wc-checkout-add-on.php:204
+msgid "File %d"
+msgstr ""
+
+#: includes/class-wc-checkout-add-on.php:215
+msgid "Uploaded file"
+msgstr ""
+
+#: includes/class-wc-checkout-add-on.php:360
+msgid "Free!"
+msgstr ""
+
+#: includes/frontend/class-wc-checkout-add-ons-frontend.php:508
+msgid "required"
+msgstr ""
+
+#: includes/frontend/class-wc-checkout-add-ons-frontend.php:618
+msgid "Drag file here or click to upload"
+msgstr ""
+
+#: includes/frontend/class-wc-checkout-add-ons-frontend.php:624
+msgid "Remove"
+msgstr ""
+
+#: includes/frontend/class-wc-checkout-add-ons-frontend.php:629
+msgid "You need to enable Javascript to upload files"
+msgstr ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-admin-notice-handler.php:196
+msgid "Dismiss"
+msgstr ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:192
+msgid "You cannot clone instances of %s."
+msgstr ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:201
+msgid "You cannot unserialize instances of %s."
+msgstr ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:319
+msgid ""
+"%s requires the %s PHP extension to function.  Contact your host or server "
+"administrator to configure and install the missing extension."
+msgid_plural ""
+"%s requires the following PHP extensions to function: %s.  Contact your "
+"host or server administrator to configure and install the missing "
+"extensions."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:339
+msgid ""
+"%s requires the %s PHP function to exist.  Contact your host or server "
+"administrator to configure and install the missing function."
+msgid_plural ""
+"%s requires the following PHP functions to exist: %s.  Contact your host or "
+"server administrator to configure and install the missing functions."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:374
+msgid "Docs"
+msgstr ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:378
+msgid "Support"
+msgstr ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:382
+msgid "Write a Review"
+msgstr ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:632
+msgid "Configure"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Checkout Add-Ons"
+msgstr ""
+
+#: woocommerce-checkout-add-ons.php:212
+msgid ""
+"Thanks for installing Checkout Add-Ons! Before you get started, please take "
+"a moment to %sread through the documentation%s."
+msgstr ""
+
+#: woocommerce-checkout-add-ons.php:334
+msgid "Checkout Add-on Value"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woothemes.com/products/wc-checkout-add-ons/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Easily create paid add-ons for your WooCommerce checkout and display them "
+"in the Orders admin, the My Orders section, and even order emails!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SkyVerge"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.skyverge.com"
+msgstr ""

@@ -1,0 +1,10 @@
+*** WooCommerce Distance Rate Shipping Changelog ***
+
+2015.02.17 - version 1.0.2
+* Fix - Convert metric to imperial as Google only returns metric values.
+
+2015.02.03 - version 1.0.1
+* Fix - Distance unit only worked in km, now support mi
+
+2014.07.22 - version 1.0.0
+* Initial release

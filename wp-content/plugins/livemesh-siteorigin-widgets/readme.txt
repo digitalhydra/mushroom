@@ -3,9 +3,9 @@ Author URI: http://portfoliotheme.org
 Plugin URI: http://portfoliotheme.org/siteorigin-widgets
 Contributors: livemesh
 Tags: widget, siteorigin, siteorigin widgets bundle, siteorigin page builder, siteorigin addons, grid, gallery, video background, portfolio, carousel, shortcode, tabs, admin, plugin, page
-Requires at least: 4.1
-Tested up to: 4.6
-Stable Tag: 1.4.6
+Requires at least: 4.3
+Tested up to: 4.7
+Stable Tag: 1.4.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -113,6 +113,10 @@ Pls install and activate the <a href="https://wordpress.org/plugins/portfolio-po
 5. Livemesh SiteOrigin widgets in the Appearance > Widgets page.
 
 == Changelog ==
+
+= 1.4.7 =
+* Fixed - The taxonomy filter not reflecting custom taxonomies in grid widget.
+* Fixed - The taxonomy list in posts carousel not displaying custom taxonomies.
 
 = 1.4.6 =
 * Fixed - Translation of published date on the grid.

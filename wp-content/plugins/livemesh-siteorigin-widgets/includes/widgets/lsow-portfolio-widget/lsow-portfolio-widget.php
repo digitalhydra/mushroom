@@ -19,6 +19,69 @@ class LSOW_Portfolio_Widget extends SiteOrigin_Widget {
                 'help' => LSOW_PLUGIN_HELP_URL. '#grid-widget'
             ),
             array(),
+            false,
+            plugin_dir_path(__FILE__)
+        );
+    }
+
+    function initialize() {
+
+        $this->register_frontend_scripts(
+            array(
+                array(
+                    'lsow-isotope',
+                    LSOW_PLUGIN_URL . 'assets/js/isotope.pkgd' . LSOW_JS_SUFFIX . '.js',
+                    array('jquery'),
+                    LSOW_VERSION
+                ),
+                array(
+                    'lsow-imagesloaded',
+                    LSOW_PLUGIN_URL . 'assets/js/imagesloaded.pkgd' . LSOW_JS_SUFFIX . '.js',
+                    array('jquery'),
+                    LSOW_VERSION
+                ),
+            )
+        );
+
+        $this->register_frontend_styles(
+            array(
+
+                array(
+                    'lsow-frontend-styles',
+                    LSOW_PLUGIN_URL . 'assets/css/lsow-frontend.css',
+                    array(),
+                    LSOW_VERSION
+                ),
+
+                array(
+                    'lsow-icomoon-styles',
+                    LSOW_PLUGIN_URL . 'assets/css/icomoon.css',
+                    array(),
+                    LSOW_VERSION
+                ),
+            )
+        );
+
+        $this->register_frontend_scripts(array(
+                array(
+                    'lsow-portfolio',
+                    plugin_dir_url(__FILE__) . 'js/portfolio' . LSOW_JS_SUFFIX . '.js',
+                    array('jquery')
+                )
+            )
+        );
+
+        $this->register_frontend_styles(array(
+                array(
+                    'lsow-portfolio',
+                    plugin_dir_url(__FILE__) . 'css/style.css'
+                )
+            )
+        );
+    }
+
+    function get_widget_form() {
+        return
             array(
                 'title' => array(
                     'type' => 'text',
@@ -182,64 +245,8 @@ class LSOW_Portfolio_Widget extends SiteOrigin_Widget {
                         ),
                     )
                 ),
-            )
-        );
-    }
+            );
 
-    function initialize() {
-
-        $this->register_frontend_scripts(
-            array(
-                array(
-                    'lsow-isotope',
-                    LSOW_PLUGIN_URL . 'assets/js/isotope.pkgd' . LSOW_JS_SUFFIX . '.js',
-                    array('jquery'),
-                    LSOW_VERSION
-                ),
-                array(
-                    'lsow-imagesloaded',
-                    LSOW_PLUGIN_URL . 'assets/js/imagesloaded.pkgd' . LSOW_JS_SUFFIX . '.js',
-                    array('jquery'),
-                    LSOW_VERSION
-                ),
-            )
-        );
-
-        $this->register_frontend_styles(
-            array(
-
-                array(
-                    'lsow-frontend-styles',
-                    LSOW_PLUGIN_URL . 'assets/css/lsow-frontend.css',
-                    array(),
-                    LSOW_VERSION
-                ),
-
-                array(
-                    'lsow-icomoon-styles',
-                    LSOW_PLUGIN_URL . 'assets/css/icomoon.css',
-                    array(),
-                    LSOW_VERSION
-                ),
-            )
-        );
-
-        $this->register_frontend_scripts(array(
-                array(
-                    'lsow-portfolio',
-                    plugin_dir_url(__FILE__) . 'js/portfolio' . LSOW_JS_SUFFIX . '.js',
-                    array('jquery')
-                )
-            )
-        );
-
-        $this->register_frontend_styles(array(
-                array(
-                    'lsow-portfolio',
-                    plugin_dir_url(__FILE__) . 'css/style.css'
-                )
-            )
-        );
     }
 
     function modify_form($form) {

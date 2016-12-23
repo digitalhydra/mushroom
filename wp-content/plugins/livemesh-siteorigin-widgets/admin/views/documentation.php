@@ -1274,6 +1274,13 @@ else {
             <!-- Updates panel -->
             <div id="updates-panel" class="panel-left">
 
+                <h4>1.4.7</h4>
+
+                <ul>
+                    <li>Fixed - The taxonomy filter not reflecting custom taxonomies in grid widget.</li>
+                    <li>Fixed - The taxonomy list in posts carousel not displaying custom taxonomies.</li>
+                </ul>
+
                 <h4>1.4.6</h4>
 
                 <ul>

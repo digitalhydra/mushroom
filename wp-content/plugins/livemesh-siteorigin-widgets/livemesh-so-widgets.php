@@ -7,7 +7,7 @@
  * Author URI: http://portfoliotheme.org/
  * License: GPL3
  * License URI: https://www.gnu.org/licenses/gpl-3.0.txt
- * Version: 1.4.6
+ * Version: 1.4.7
  * Text Domain: livemesh-so-widgets
  * Domain Path: languages
  *
@@ -92,7 +92,7 @@ if (!class_exists('Livemesh_SiteOrigin_Widgets')) :
 
             // Plugin version
             if (!defined('LSOW_VERSION')) {
-                define('LSOW_VERSION', '1.4.6');
+                define('LSOW_VERSION', '1.4.7');
             }
 
             // Plugin Folder Path

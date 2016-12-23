@@ -19,226 +19,8 @@ class LSOW_Posts_Carousel_Widget extends SiteOrigin_Widget {
                 'help' => LSOW_PLUGIN_HELP_URL. '#post-carousel'
             ),
             array(),
-            array(
-                'title' => array(
-                    'type' => 'text',
-                    'label' => __('Title', 'livemesh-so-widgets'),
-                ),
-
-                'posts' => array(
-                    'type' => 'posts',
-                    'label' => __('Posts query', 'livemesh-so-widgets'),
-                ),
-
-                'settings' => array(
-                    'type' => 'section',
-                    'label' => __('General Settings', 'livemesh-so-widgets'),
-                    'fields' => array(
-
-                        'taxonomy_chosen' => array(
-                            'type' => 'select',
-                            'label' => __('Choose the taxonomy to display info.', 'livemesh-so-widgets'),
-                            'description' => __('Choose the taxonomy to use for display of taxonomy information for posts/custom post types.', 'livemesh-so-widgets'),
-                            'options' => lsow_get_taxonomies_map(),
-                            'default' => 'category',
-                        ),
-
-                        'image_linkable' => array(
-                            'type' => 'checkbox',
-                            'label' => __('Link Images to Posts?', 'livemesh-so-widgets'),
-                            'default' => true
-                        ),
-
-                        'display_title' => array(
-                            'type' => 'checkbox',
-                            'label' => __('Display posts title below the post item?', 'livemesh-so-widgets'),
-                            'default' => true
-                        ),
-
-                        'display_summary' => array(
-                            'type' => 'checkbox',
-                            'label' => __('Display post excerpt/summary below the post item?', 'livemesh-so-widgets'),
-                            'default' => true
-                        ),
-
-                        'post_meta' => array(
-                            'type' => 'section',
-                            'label' => __('Post Meta', 'livemesh-so-widgets'),
-                            'fields' => array(
-
-                                'display_author' => array(
-                                    'type' => 'checkbox',
-                                    'label' => __('Display post author info below the post item?', 'livemesh-so-widgets'),
-                                    'default' => false
-                                ),
-
-                                'display_post_date' => array(
-                                    'type' => 'checkbox',
-                                    'label' => __('Display post date info below the post item?', 'livemesh-so-widgets'),
-                                    'default' => false
-                                ),
-
-                                'display_taxonomy' => array(
-                                    'type' => 'checkbox',
-                                    'label' => __('Display taxonomy info below the post item?', 'livemesh-so-widgets'),
-                                    'default' => false
-                                ),
-
-                            )
-
-                        ),
-                    )
-                ),
-
-                'carousel_settings' => array(
-                    'type' => 'section',
-                    'label' => __('Carousel Settings', 'livemesh-so-widgets'),
-                    'fields' => array(
-
-                        'arrows' => array(
-                            'type' => 'checkbox',
-                            'label' => __('Prev/Next Arrows?', 'livemesh-so-widgets'),
-                            'default' => true
-                        ),
-
-                        'dots' => array(
-                            'type' => 'checkbox',
-                            'label' => __('Show dot indicators for navigation?', 'livemesh-so-widgets'),
-                        ),
-
-                        'autoplay' => array(
-                            'type' => 'checkbox',
-                            'label' => __('Autoplay?', 'livemesh-so-widgets'),
-                            'description' => __('Should the carousel autoplay as in a slideshow.', 'livemesh-so-widgets'),
-                            'default' => false
-                        ),
-
-
-                        'autoplay_speed' => array(
-                            'type' => 'number',
-                            'label' => __('Autoplay speed in ms', 'livemesh-so-widgets'),
-                            'default' => 3000
-                        ),
-
-
-                        'animation_speed' => array(
-                            'type' => 'number',
-                            'label' => __('Autoplay animation speed in ms', 'livemesh-so-widgets'),
-                            'default' => 300
-                        ),
-
-                        'pause_on_hover' => array(
-                            'type' => 'checkbox',
-                            'label' => __('Pause on mouse hover?', 'livemesh-so-widgets'),
-                            'default' => true
-                        ),
-
-                        'display_columns' => array(
-                            'type' => 'slider',
-                            'label' => __('Columns per row', 'livemesh-so-widgets'),
-                            'min' => 1,
-                            'max' => 5,
-                            'integer' => true,
-                            'default' => 3
-                        ),
-
-                        'scroll_columns' => array(
-                            'type' => 'slider',
-                            'label' => __('Columns to scroll', 'livemesh-so-widgets'),
-                            'min' => 1,
-                            'max' => 5,
-                            'integer' => true,
-                            'default' => 3
-                        ),
-
-                        'gutter' => array(
-                            'type' => 'number',
-                            'label' => __('Gutter', 'livemesh-so-widgets'),
-                            'description' => __('Space between columns.', 'livemesh-so-widgets'),
-                            'default' => 10
-                        ),
-
-                        'responsive' => array(
-                            'type' => 'section',
-                            'label' => __('Responsive', 'livemesh-so-widgets'),
-                            'hide' => true,
-                            'fields' => array(
-                                'tablet' => array(
-                                    'type' => 'section',
-                                    'label' => __('Tablet', 'livemesh-so-widgets'),
-                                    'fields' => array(
-                                        'display_columns' => array(
-                                            'type' => 'slider',
-                                            'label' => __('Columns per row', 'livemesh-so-widgets'),
-                                            'min' => 1,
-                                            'max' => 5,
-                                            'integer' => true,
-                                            'default' => 2
-                                        ),
-                                        'scroll_columns' => array(
-                                            'type' => 'slider',
-                                            'label' => __('Columns to scroll', 'livemesh-so-widgets'),
-                                            'min' => 1,
-                                            'max' => 5,
-                                            'integer' => true,
-                                            'default' => 2
-                                        ),
-                                        'gutter' => array(
-                                            'type' => 'number',
-                                            'label' => __('Gutter', 'livemesh-so-widgets'),
-                                            'description' => __('Space between columns.', 'livemesh-so-widgets'),
-                                            'default' => 10
-                                        ),
-                                        'width' => array(
-                                            'type' => 'text',
-                                            'label' => __('Resolution', 'livemesh-so-widgets'),
-                                            'description' => __('The resolution to treat as a tablet resolution.', 'livemesh-so-widgets'),
-                                            'default' => 800,
-                                            'sanitize' => 'intval',
-                                        )
-                                    )
-                                ),
-                                'mobile' => array(
-                                    'type' => 'section',
-                                    'label' => __('Mobile Phone', 'livemesh-so-widgets'),
-                                    'fields' => array(
-                                        'display_columns' => array(
-                                            'type' => 'slider',
-                                            'label' => __('Columns per row', 'livemesh-so-widgets'),
-                                            'min' => 1,
-                                            'max' => 5,
-                                            'integer' => true,
-                                            'default' => 1
-                                        ),
-                                        'scroll_columns' => array(
-                                            'type' => 'slider',
-                                            'label' => __('Columns to scroll', 'livemesh-so-widgets'),
-                                            'min' => 1,
-                                            'max' => 5,
-                                            'integer' => true,
-                                            'default' => 1
-                                        ),
-                                        'gutter' => array(
-                                            'type' => 'number',
-                                            'label' => __('Gutter', 'livemesh-so-widgets'),
-                                            'description' => __('Space between columns.', 'livemesh-so-widgets'),
-                                            'default' => 10
-                                        ),
-                                        'width' => array(
-                                            'type' => 'text',
-                                            'label' => __('Resolution', 'livemesh-so-widgets'),
-                                            'description' => __('The resolution to treat as a mobile resolution.', 'livemesh-so-widgets'),
-                                            'default' => 480,
-                                            'sanitize' => 'intval',
-                                        )
-                                    )
-                                )
-
-                            )
-                        ),
-                    )
-                ),
-            )
+            false,
+            plugin_dir_path(__FILE__)
         );
     }
 
@@ -289,7 +71,230 @@ class LSOW_Posts_Carousel_Widget extends SiteOrigin_Widget {
         );
     }
 
-    function modify_form( $form ) {
+    function get_widget_form() {
+        return array(
+            'title' => array(
+                'type' => 'text',
+                'label' => __('Title', 'livemesh-so-widgets'),
+            ),
+
+            'posts' => array(
+                'type' => 'posts',
+                'label' => __('Posts query', 'livemesh-so-widgets'),
+            ),
+
+            'settings' => array(
+                'type' => 'section',
+                'label' => __('General Settings', 'livemesh-so-widgets'),
+                'fields' => array(
+
+                    'taxonomy_chosen' => array(
+                        'type' => 'select',
+                        'label' => __('Choose the taxonomy to display info.', 'livemesh-so-widgets'),
+                        'description' => __('Choose the taxonomy to use for display of taxonomy information for posts/custom post types.', 'livemesh-so-widgets'),
+                        'options' => lsow_get_taxonomies_map(),
+                        'default' => 'category',
+                    ),
+
+                    'image_linkable' => array(
+                        'type' => 'checkbox',
+                        'label' => __('Link Images to Posts?', 'livemesh-so-widgets'),
+                        'default' => true
+                    ),
+
+                    'display_title' => array(
+                        'type' => 'checkbox',
+                        'label' => __('Display posts title below the post item?', 'livemesh-so-widgets'),
+                        'default' => true
+                    ),
+
+                    'display_summary' => array(
+                        'type' => 'checkbox',
+                        'label' => __('Display post excerpt/summary below the post item?', 'livemesh-so-widgets'),
+                        'default' => true
+                    ),
+
+                    'post_meta' => array(
+                        'type' => 'section',
+                        'label' => __('Post Meta', 'livemesh-so-widgets'),
+                        'fields' => array(
+
+                            'display_author' => array(
+                                'type' => 'checkbox',
+                                'label' => __('Display post author info below the post item?', 'livemesh-so-widgets'),
+                                'default' => false
+                            ),
+
+                            'display_post_date' => array(
+                                'type' => 'checkbox',
+                                'label' => __('Display post date info below the post item?', 'livemesh-so-widgets'),
+                                'default' => false
+                            ),
+
+                            'display_taxonomy' => array(
+                                'type' => 'checkbox',
+                                'label' => __('Display taxonomy info below the post item?', 'livemesh-so-widgets'),
+                                'default' => false
+                            ),
+
+                        )
+
+                    ),
+                )
+            ),
+
+            'carousel_settings' => array(
+                'type' => 'section',
+                'label' => __('Carousel Settings', 'livemesh-so-widgets'),
+                'fields' => array(
+
+                    'arrows' => array(
+                        'type' => 'checkbox',
+                        'label' => __('Prev/Next Arrows?', 'livemesh-so-widgets'),
+                        'default' => true
+                    ),
+
+                    'dots' => array(
+                        'type' => 'checkbox',
+                        'label' => __('Show dot indicators for navigation?', 'livemesh-so-widgets'),
+                    ),
+
+                    'autoplay' => array(
+                        'type' => 'checkbox',
+                        'label' => __('Autoplay?', 'livemesh-so-widgets'),
+                        'description' => __('Should the carousel autoplay as in a slideshow.', 'livemesh-so-widgets'),
+                        'default' => false
+                    ),
+
+
+                    'autoplay_speed' => array(
+                        'type' => 'number',
+                        'label' => __('Autoplay speed in ms', 'livemesh-so-widgets'),
+                        'default' => 3000
+                    ),
+
+
+                    'animation_speed' => array(
+                        'type' => 'number',
+                        'label' => __('Autoplay animation speed in ms', 'livemesh-so-widgets'),
+                        'default' => 300
+                    ),
+
+                    'pause_on_hover' => array(
+                        'type' => 'checkbox',
+                        'label' => __('Pause on mouse hover?', 'livemesh-so-widgets'),
+                        'default' => true
+                    ),
+
+                    'display_columns' => array(
+                        'type' => 'slider',
+                        'label' => __('Columns per row', 'livemesh-so-widgets'),
+                        'min' => 1,
+                        'max' => 5,
+                        'integer' => true,
+                        'default' => 3
+                    ),
+
+                    'scroll_columns' => array(
+                        'type' => 'slider',
+                        'label' => __('Columns to scroll', 'livemesh-so-widgets'),
+                        'min' => 1,
+                        'max' => 5,
+                        'integer' => true,
+                        'default' => 3
+                    ),
+
+                    'gutter' => array(
+                        'type' => 'number',
+                        'label' => __('Gutter', 'livemesh-so-widgets'),
+                        'description' => __('Space between columns.', 'livemesh-so-widgets'),
+                        'default' => 10
+                    ),
+
+                    'responsive' => array(
+                        'type' => 'section',
+                        'label' => __('Responsive', 'livemesh-so-widgets'),
+                        'hide' => true,
+                        'fields' => array(
+                            'tablet' => array(
+                                'type' => 'section',
+                                'label' => __('Tablet', 'livemesh-so-widgets'),
+                                'fields' => array(
+                                    'display_columns' => array(
+                                        'type' => 'slider',
+                                        'label' => __('Columns per row', 'livemesh-so-widgets'),
+                                        'min' => 1,
+                                        'max' => 5,
+                                        'integer' => true,
+                                        'default' => 2
+                                    ),
+                                    'scroll_columns' => array(
+                                        'type' => 'slider',
+                                        'label' => __('Columns to scroll', 'livemesh-so-widgets'),
+                                        'min' => 1,
+                                        'max' => 5,
+                                        'integer' => true,
+                                        'default' => 2
+                                    ),
+                                    'gutter' => array(
+                                        'type' => 'number',
+                                        'label' => __('Gutter', 'livemesh-so-widgets'),
+                                        'description' => __('Space between columns.', 'livemesh-so-widgets'),
+                                        'default' => 10
+                                    ),
+                                    'width' => array(
+                                        'type' => 'text',
+                                        'label' => __('Resolution', 'livemesh-so-widgets'),
+                                        'description' => __('The resolution to treat as a tablet resolution.', 'livemesh-so-widgets'),
+                                        'default' => 800,
+                                        'sanitize' => 'intval',
+                                    )
+                                )
+                            ),
+                            'mobile' => array(
+                                'type' => 'section',
+                                'label' => __('Mobile Phone', 'livemesh-so-widgets'),
+                                'fields' => array(
+                                    'display_columns' => array(
+                                        'type' => 'slider',
+                                        'label' => __('Columns per row', 'livemesh-so-widgets'),
+                                        'min' => 1,
+                                        'max' => 5,
+                                        'integer' => true,
+                                        'default' => 1
+                                    ),
+                                    'scroll_columns' => array(
+                                        'type' => 'slider',
+                                        'label' => __('Columns to scroll', 'livemesh-so-widgets'),
+                                        'min' => 1,
+                                        'max' => 5,
+                                        'integer' => true,
+                                        'default' => 1
+                                    ),
+                                    'gutter' => array(
+                                        'type' => 'number',
+                                        'label' => __('Gutter', 'livemesh-so-widgets'),
+                                        'description' => __('Space between columns.', 'livemesh-so-widgets'),
+                                        'default' => 10
+                                    ),
+                                    'width' => array(
+                                        'type' => 'text',
+                                        'label' => __('Resolution', 'livemesh-so-widgets'),
+                                        'description' => __('The resolution to treat as a mobile resolution.', 'livemesh-so-widgets'),
+                                        'default' => 480,
+                                        'sanitize' => 'intval',
+                                    )
+                                )
+                            )
+
+                        )
+                    ),
+                )
+            ),
+        );
+    }
+
+    function modify_form($form) {
         $form['settings']['fields']['taxonomy_chosen']['options'] = lsow_get_taxonomies_map();
         return $form;
     }
